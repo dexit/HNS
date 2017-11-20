@@ -1,0 +1,21 @@
+{
+    "name": "dexit/h_n_s",
+    "description": "HNS package for dexit.",
+    "keywords": ["lavalite", "HNS"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dexit\\HNS\\": "src/Dexit/HNS"
+        }
+    },
+    "minimum-stability": "dev"
+}
